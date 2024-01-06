@@ -559,14 +559,9 @@
       "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       "title": "iPhone 9",
       "price": 549,
-      "description": "An apple mobile which is nothing like apple"
-    },
-    {
-      "id": 4,
-      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-      "title": "OPPOF19",
-      "price": 280,
-      "description": "OPPO F19 is officially announced on April 2021."
+      "description": "An apple mobile which is nothing like apple",
+      "brand": "Apple",
+      "quantity": 3
     }
   ]
 }

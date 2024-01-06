@@ -24,7 +24,7 @@ function Products() {
             <p className={styles.price}>{product?.price}</p>
             <p>{product?.description}</p>
             <p>
-              <button onClick={() => dispatch(addAsyncItem(product))}>
+              <button onClick={() => dispatch(addAsyncItem({...product, quantity: 1}))}>
                 Add to Cart
               </button>
             </p>

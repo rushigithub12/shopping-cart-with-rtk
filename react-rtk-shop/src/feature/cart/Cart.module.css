@@ -13,3 +13,7 @@
 .thumbnail{
     height: 100px;
 }
+.totalprice{
+    font-size: large;
+    font-weight: bold;
+}
