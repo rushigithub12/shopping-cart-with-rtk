@@ -8,7 +8,7 @@ export const addItem = (item) => {
     return axios.post(`http://localhost:8081/cart`, item)
 }
 
-export const updateItem = (item, id) => {
+export const updateItem = (id, item) => {
     return axios.put(`http://localhost:8081/cart/${id}`, item)
 }
 
